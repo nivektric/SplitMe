@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		535465E11D5552BC00650679 /* TotalAmountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535465E01D5552BC00650679 /* TotalAmountViewController.swift */; };
+		535465E41D5554E200650679 /* PriceFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535465E31D5554E200650679 /* PriceFieldDelegate.swift */; };
+		535465E71D56A37C00650679 /* NSNotification+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535465E61D56A37C00650679 /* NSNotification+Keyboard.swift */; };
+		535465EA1D56AC0700650679 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535465E91D56AC0700650679 /* Meal.swift */; };
+		535465EC1D57B95500650679 /* DinerReadyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535465EB1D57B95500650679 /* DinerReadyViewController.swift */; };
+		535465EE1D57D61400650679 /* Diner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535465ED1D57D61400650679 /* Diner.swift */; };
+		535465F01D57DA0400650679 /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535465EF1D57DA0400650679 /* OverviewViewController.swift */; };
+		535465F21D57DCA200650679 /* DinerItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535465F11D57DCA200650679 /* DinerItemViewController.swift */; };
+		535465F41D57DD3D00650679 /* UIButton+Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535465F31D57DD3D00650679 /* UIButton+Border.swift */; };
+		535465F61D57E40D00650679 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535465F51D57E40D00650679 /* Item.swift */; };
+		53AB7A271D57EBBE00AF828D /* UIViewController+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AB7A261D57EBBE00AF828D /* UIViewController+Keyboard.swift */; };
+		53C81B4C1D554F130033E968 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C81B4B1D554F130033E968 /* AppDelegate.swift */; };
+		53C81B4E1D554F130033E968 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C81B4D1D554F130033E968 /* ViewController.swift */; };
+		53C81B611D554F130033E968 /* SplitMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C81B601D554F130033E968 /* SplitMeTests.swift */; };
+		53C81B741D55512C0033E968 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53C81B6F1D55512C0033E968 /* Assets.xcassets */; };
+		53C81B761D55512C0033E968 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53C81B721D55512C0033E968 /* Main.storyboard */; };
+		90A625E5FA42EA45BFC6DDBD /* Pods_SplitMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6BD3E11EB87137D530411D8 /* Pods_SplitMe.framework */; };
+		A1C77DD8E2A438B6CAEFA646 /* Pods_SplitMeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84633B90AFB938023E5E4BE4 /* Pods_SplitMeTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53C81B5D1D554F130033E968 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53C81B401D554F130033E968 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53C81B471D554F130033E968;
+			remoteInfo = SplitMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01B6396E88357789842A07C9 /* Pods-SplitMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitMeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SplitMeTests/Pods-SplitMeTests.release.xcconfig"; sourceTree = "<group>"; };
+		535465E01D5552BC00650679 /* TotalAmountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TotalAmountViewController.swift; sourceTree = "<group>"; };
+		535465E31D5554E200650679 /* PriceFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceFieldDelegate.swift; sourceTree = "<group>"; };
+		535465E61D56A37C00650679 /* NSNotification+Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSNotification+Keyboard.swift"; sourceTree = "<group>"; };
+		535465E91D56AC0700650679 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		535465EB1D57B95500650679 /* DinerReadyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DinerReadyViewController.swift; sourceTree = "<group>"; };
+		535465ED1D57D61400650679 /* Diner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diner.swift; sourceTree = "<group>"; };
+		535465EF1D57DA0400650679 /* OverviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverviewViewController.swift; sourceTree = "<group>"; };
+		535465F11D57DCA200650679 /* DinerItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DinerItemViewController.swift; sourceTree = "<group>"; };
+		535465F31D57DD3D00650679 /* UIButton+Border.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Border.swift"; sourceTree = "<group>"; };
+		535465F51D57E40D00650679 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		53AB7A261D57EBBE00AF828D /* UIViewController+Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Keyboard.swift"; sourceTree = "<group>"; };
+		53C81B481D554F130033E968 /* SplitMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53C81B4B1D554F130033E968 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53C81B4D1D554F130033E968 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		53C81B571D554F130033E968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53C81B5C1D554F130033E968 /* SplitMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53C81B601D554F130033E968 /* SplitMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitMeTests.swift; sourceTree = "<group>"; };
+		53C81B621D554F130033E968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53C81B6F1D55512C0033E968 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53C81B731D55512C0033E968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		782436B6A919FC38C6D05AB9 /* Pods-SplitMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-SplitMe/Pods-SplitMe.release.xcconfig"; sourceTree = "<group>"; };
+		84633B90AFB938023E5E4BE4 /* Pods_SplitMeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SplitMeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91EF2EBF7AE240B89598B06A /* Pods-SplitMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitMeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SplitMeTests/Pods-SplitMeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6BD3E11EB87137D530411D8 /* Pods_SplitMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SplitMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0F7494449A694255999E01A /* Pods-SplitMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SplitMe/Pods-SplitMe.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53C81B451D554F130033E968 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90A625E5FA42EA45BFC6DDBD /* Pods_SplitMe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53C81B591D554F130033E968 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C77DD8E2A438B6CAEFA646 /* Pods_SplitMeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		401894C07A1A04DB61CD3277 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0F7494449A694255999E01A /* Pods-SplitMe.debug.xcconfig */,
+				782436B6A919FC38C6D05AB9 /* Pods-SplitMe.release.xcconfig */,
+				91EF2EBF7AE240B89598B06A /* Pods-SplitMeTests.debug.xcconfig */,
+				01B6396E88357789842A07C9 /* Pods-SplitMeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4FF45A15CAB8B29132C69A54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6BD3E11EB87137D530411D8 /* Pods_SplitMe.framework */,
+				84633B90AFB938023E5E4BE4 /* Pods_SplitMeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		535465DF1D5552B000650679 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				535465E01D5552BC00650679 /* TotalAmountViewController.swift */,
+				535465EB1D57B95500650679 /* DinerReadyViewController.swift */,
+				535465F11D57DCA200650679 /* DinerItemViewController.swift */,
+				535465EF1D57DA0400650679 /* OverviewViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		535465E21D5554CE00650679 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				535465E31D5554E200650679 /* PriceFieldDelegate.swift */,
+				535465F31D57DD3D00650679 /* UIButton+Border.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		535465E51D56A37300650679 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				535465E61D56A37C00650679 /* NSNotification+Keyboard.swift */,
+				53AB7A261D57EBBE00AF828D /* UIViewController+Keyboard.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		535465E81D56AC0100650679 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				535465E91D56AC0700650679 /* Meal.swift */,
+				535465ED1D57D61400650679 /* Diner.swift */,
+				535465F51D57E40D00650679 /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		53C81B3F1D554F130033E968 = {
+			isa = PBXGroup;
+			children = (
+				53C81B4A1D554F130033E968 /* SplitMe */,
+				53C81B5F1D554F130033E968 /* SplitMeTests */,
+				53C81B491D554F130033E968 /* Products */,
+				401894C07A1A04DB61CD3277 /* Pods */,
+				4FF45A15CAB8B29132C69A54 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		53C81B491D554F130033E968 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53C81B481D554F130033E968 /* SplitMe.app */,
+				53C81B5C1D554F130033E968 /* SplitMeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53C81B4A1D554F130033E968 /* SplitMe */ = {
+			isa = PBXGroup;
+			children = (
+				535465E81D56AC0100650679 /* Model */,
+				535465E51D56A37300650679 /* Util */,
+				535465E21D5554CE00650679 /* Views */,
+				535465DF1D5552B000650679 /* ViewControllers */,
+				53C81B6E1D55512C0033E968 /* Resources */,
+				53C81B4B1D554F130033E968 /* AppDelegate.swift */,
+				53C81B4D1D554F130033E968 /* ViewController.swift */,
+				53C81B571D554F130033E968 /* Info.plist */,
+			);
+			path = SplitMe;
+			sourceTree = "<group>";
+		};
+		53C81B5F1D554F130033E968 /* SplitMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				53C81B601D554F130033E968 /* SplitMeTests.swift */,
+				53C81B621D554F130033E968 /* Info.plist */,
+			);
+			path = SplitMeTests;
+			sourceTree = "<group>";
+		};
+		53C81B6E1D55512C0033E968 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				53C81B6F1D55512C0033E968 /* Assets.xcassets */,
+				53C81B721D55512C0033E968 /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53C81B471D554F130033E968 /* SplitMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53C81B651D554F130033E968 /* Build configuration list for PBXNativeTarget "SplitMe" */;
+			buildPhases = (
+				F8D67DC4D01BFAB5CC674EBC /* [CP] Check Pods Manifest.lock */,
+				53C81B441D554F130033E968 /* Sources */,
+				53C81B451D554F130033E968 /* Frameworks */,
+				53C81B461D554F130033E968 /* Resources */,
+				C3D26B1308EC7AEC717C0E0D /* [CP] Embed Pods Frameworks */,
+				D571BD3F4917D56A4A03065C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SplitMe;
+			productName = SplitMe;
+			productReference = 53C81B481D554F130033E968 /* SplitMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53C81B5B1D554F130033E968 /* SplitMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53C81B681D554F130033E968 /* Build configuration list for PBXNativeTarget "SplitMeTests" */;
+			buildPhases = (
+				68855049F0C57E280D850294 /* [CP] Check Pods Manifest.lock */,
+				53C81B581D554F130033E968 /* Sources */,
+				53C81B591D554F130033E968 /* Frameworks */,
+				53C81B5A1D554F130033E968 /* Resources */,
+				2A4709264B069AED21B54AF8 /* [CP] Embed Pods Frameworks */,
+				45EAA893FC3ED9A320A08706 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53C81B5E1D554F130033E968 /* PBXTargetDependency */,
+			);
+			name = SplitMeTests;
+			productName = SplitMeTests;
+			productReference = 53C81B5C1D554F130033E968 /* SplitMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53C81B401D554F130033E968 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				TargetAttributes = {
+					53C81B471D554F130033E968 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					53C81B5B1D554F130033E968 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 53C81B471D554F130033E968;
+					};
+				};
+			};
+			buildConfigurationList = 53C81B431D554F130033E968 /* Build configuration list for PBXProject "SplitMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53C81B3F1D554F130033E968;
+			productRefGroup = 53C81B491D554F130033E968 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53C81B471D554F130033E968 /* SplitMe */,
+				53C81B5B1D554F130033E968 /* SplitMeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53C81B461D554F130033E968 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C81B741D55512C0033E968 /* Assets.xcassets in Resources */,
+				53C81B761D55512C0033E968 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53C81B5A1D554F130033E968 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A4709264B069AED21B54AF8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SplitMeTests/Pods-SplitMeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45EAA893FC3ED9A320A08706 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SplitMeTests/Pods-SplitMeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68855049F0C57E280D850294 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C3D26B1308EC7AEC717C0E0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SplitMe/Pods-SplitMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D571BD3F4917D56A4A03065C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SplitMe/Pods-SplitMe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8D67DC4D01BFAB5CC674EBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53C81B441D554F130033E968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				535465EE1D57D61400650679 /* Diner.swift in Sources */,
+				53AB7A271D57EBBE00AF828D /* UIViewController+Keyboard.swift in Sources */,
+				53C81B4E1D554F130033E968 /* ViewController.swift in Sources */,
+				535465F61D57E40D00650679 /* Item.swift in Sources */,
+				535465F01D57DA0400650679 /* OverviewViewController.swift in Sources */,
+				535465EC1D57B95500650679 /* DinerReadyViewController.swift in Sources */,
+				535465E41D5554E200650679 /* PriceFieldDelegate.swift in Sources */,
+				535465E71D56A37C00650679 /* NSNotification+Keyboard.swift in Sources */,
+				535465F41D57DD3D00650679 /* UIButton+Border.swift in Sources */,
+				53C81B4C1D554F130033E968 /* AppDelegate.swift in Sources */,
+				535465EA1D56AC0700650679 /* Meal.swift in Sources */,
+				535465F21D57DCA200650679 /* DinerItemViewController.swift in Sources */,
+				535465E11D5552BC00650679 /* TotalAmountViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53C81B581D554F130033E968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C81B611D554F130033E968 /* SplitMeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53C81B5E1D554F130033E968 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53C81B471D554F130033E968 /* SplitMe */;
+			targetProxy = 53C81B5D1D554F130033E968 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53C81B721D55512C0033E968 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53C81B731D55512C0033E968 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53C81B631D554F130033E968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53C81B641D554F130033E968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53C81B661D554F130033E968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0F7494449A694255999E01A /* Pods-SplitMe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SplitMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nivektric.SplitMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		53C81B671D554F130033E968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 782436B6A919FC38C6D05AB9 /* Pods-SplitMe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SplitMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nivektric.SplitMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		53C81B691D554F130033E968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91EF2EBF7AE240B89598B06A /* Pods-SplitMeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SplitMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nivektric.SplitMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplitMe.app/SplitMe";
+			};
+			name = Debug;
+		};
+		53C81B6A1D554F130033E968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01B6396E88357789842A07C9 /* Pods-SplitMeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SplitMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nivektric.SplitMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplitMe.app/SplitMe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53C81B431D554F130033E968 /* Build configuration list for PBXProject "SplitMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53C81B631D554F130033E968 /* Debug */,
+				53C81B641D554F130033E968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53C81B651D554F130033E968 /* Build configuration list for PBXNativeTarget "SplitMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53C81B661D554F130033E968 /* Debug */,
+				53C81B671D554F130033E968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53C81B681D554F130033E968 /* Build configuration list for PBXNativeTarget "SplitMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53C81B691D554F130033E968 /* Debug */,
+				53C81B6A1D554F130033E968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53C81B401D554F130033E968 /* Project object */;
+}
